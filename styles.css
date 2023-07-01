@@ -1,0 +1,97 @@
+/*------------------------globalstyle--------------------------*/
+body{
+    
+    background-image:linear-gradient(rgba(0,0,0,0.336),rgba(0,0,0,0.336)), url(./images/Background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:100% !important;
+}
+/*------------------------loginbox--------------------------*/
+
+.content-wrap{
+    background-color: rgba(0, 0, 0, 0.75);
+    width:430px;
+    height:700px;
+    border-radius:4px;
+    padding:50px;
+}
+.text-color{
+        color: #8c8c8c;
+}
+.small-text{
+    font-size: 12px !important;
+    color:#b3b3b3;
+}
+.boxclr{
+    background-color: #333 !important; 
+}
+.form-control{
+    box-shadow: none !important;
+}
+.newmember{
+    color: #737373;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 16px
+}
+.newuser a{
+color: #fff; 
+font-size: 16px;
+font-weight: 400;
+text-decoration: none; 
+}
+.newuser a:hover{
+    color: #fff; 
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration:1.5px underline #8c8c8c ;
+}
+/*------------------------conditions--------------------------*/
+.btn-link{
+    text-decoration: none !important;
+    padding:0 !important;
+    margin-left:-5px !important;
+    margin-top:-2px !important;
+}
+.btn-link:hover{
+    text-decoration: 1px underline !important;
+}
+/*------------------------footer--------------------------*/
+.footer-wrap{
+    background-color: rgba(0, 0, 0, 0.75);
+    
+}
+.footer-wrap a{
+    text-decoration: none;
+    color: #8c8c8c;
+}
+.footer-wrap a:hover{
+    text-decoration: 1px underline !important;
+    color: #8c8c8c;
+} 
+.footer-contentwrap{
+    max-width: 1000px;
+    width: 85%;
+    padding:50px;
+    margin:0 auto;
+    color: #8c8c8c;
+}
+/*------------------------responsivestyle--------------------------*/
+
+ @media all and (min-height:1300px) {
+    body{
+        height:100vh !important;
+    }
+    .footer-wrap{
+        padding:65px;
+    }
+    /* .footer-contentwrap{
+        padding: 100px;
+    } */
+} 
+
+
+
+
+
